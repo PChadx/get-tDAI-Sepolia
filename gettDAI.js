@@ -8,8 +8,10 @@ const tokenAddress = '0x53844f9577c2334e541aec7df7174ece5df1fcf0'; // DAI token 
 const tokenContract = new web3.eth.Contract(contractABI, tokenAddress);
 const DELAY = 12000;
 //wait 12 seconds
-const MAX_GAS_FEE = '5';
-const PRIORITY_FEE = '2.3';
+const MAX_GAS_FEE = '5'; 
+// Set your desired maximum fee per gas in gwei
+const PRIORITY_FEE = '2.3'; 
+// Set your desired maximum priority fee per gas in gwei
 
 let numTries = 0;
 console.log('========================================================');
@@ -30,8 +32,8 @@ async function createToken() {
   const result = await tokenContract.methods.create(process.env.YOUR_ADDRESS).send({
     from: account.address,
     gas: 200000, // You can adjust the gas limit to suit your needs
-    maxFeePerGas: web3.utils.toWei(MAX_GAS_FEE, 'gwei'), // Set your desired maximum fee per gas in gwei
-    maxPriorityFeePerGas: web3.utils.toWei(PRIORITY_FEE, 'gwei') // Set your desired maximum priority fee per gas in gwei
+    maxFeePerGas: web3.utils.toWei(MAX_GAS_FEE, 'gwei'), 
+    maxPriorityFeePerGas: web3.utils.toWei(PRIORITY_FEE, 'gwei') 
   });
 
   numTries++; // Increment the number of tries after each call
