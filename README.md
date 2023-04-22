@@ -3,6 +3,8 @@
 Had to find an easier way to get tDAI to use on PulseChain Testnet v4 PulseX AMM.
 Freeing my time from using the smart contract manually with MetaMask.
 
+NOte: You'll need Sepolia ETH, you can get that from https://sepoliafaucet.com/ make an account, do not use your personal email and use a new wallet address. `when you are done with testing return the ETH and the tDAI so that other people can use them`. 
+
 ## Installation
 
 # PREP
