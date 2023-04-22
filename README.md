@@ -59,6 +59,7 @@ After completing the installation, open a Command Prompt or PowerShell window an
 1. Clone this repo: `gh repo clone PChadx/get-tDAI-Sepolia` or download it
 2. Create `.env` with the environment variables listed below
 3. Run `npm install` in the root folder
+4. Run the script `node gettDAI.js`
 
 ## Environment variables
 Always use a new wallet for all of this. 
