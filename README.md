@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Get tDAI while you sleep
+=======
+# Get tDAI on Sepolia while you sleep
+>>>>>>> 9afe40edae857a4b5454ffdbf77521f7cef33bef
 
 Had to find an easier way to get tDAI to use on PulseChain Testnet v4 PulseX AMM.
 Freeing my time from using the smart contract manually with MetaMask.
