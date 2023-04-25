@@ -44,11 +44,15 @@ async function createToken() {
   numTries++; // Increment the number of tries after each call
 
   console.log(`Got 10,000 tDAI on try #${numTries}! tx: ${result.transactionHash}`);
-  setTimeout(createToken, DELAY); // Call the function again after a 12-second delay
       }
       catch(error) {
         console.log(`There was an error ${error}`);
-      }
+      } finally {
+    setTimeout(createToken, DELAY);
+  }
 }
 
+
+
 createToken();
+
