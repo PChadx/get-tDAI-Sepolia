@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-# Get tDAI while you sleep
-=======
 # Get tDAI on Sepolia while you sleep
->>>>>>> 9afe40edae857a4b5454ffdbf77521f7cef33bef
-
+ 
 Had to find an easier way to get tDAI to use on PulseChain Testnet v4 PulseX AMM.
 Freeing my time from using the smart contract manually with MetaMask.
+
+NOte: You'll need Sepolia ETH, you can get that from https://sepoliafaucet.com/ make an account, do not use your personal email and use a new wallet address. `when you are done with testing return the ETH and the tDAI so that other people can use them`. 
 
 ## Installation
 
@@ -63,6 +61,7 @@ After completing the installation, open a Command Prompt or PowerShell window an
 1. Clone this repo: `gh repo clone PChadx/get-tDAI-Sepolia` or download it
 2. Create `.env` with the environment variables listed below
 3. Run `npm install` in the root folder
+4. Run the script `node gettDAI.js`
 
 ## Environment variables
 Always use a new wallet for all of this. 
